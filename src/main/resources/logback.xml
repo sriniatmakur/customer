@@ -9,7 +9,7 @@
     </appender>
 
    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-      <file>${user.home}customer.log</file>
+      <file>${user.home}/customer.log</file>
       <encoder>
          <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</pattern>
       </encoder>
